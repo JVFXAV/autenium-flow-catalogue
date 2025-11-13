@@ -14,13 +14,16 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-8 animate-fade-in">
-            {/* Logo */}
-            <div className="flex justify-center mb-8 animate-scale-in">
-              <img 
-                src={auteniumLogo} 
-                alt="Autenium Automations Logo" 
-                className="h-32 md:h-40 w-auto object-contain animate-float"
-              />
+            {/* Logo - Maior e mais destaque */}
+            <div className="flex justify-center mb-12 animate-scale-in">
+              <div className="relative">
+                <div className="absolute inset-0 bg-primary/5 blur-3xl rounded-full" />
+                <img 
+                  src={auteniumLogo} 
+                  alt="Autenium Automations Logo" 
+                  className="relative h-48 md:h-64 lg:h-72 w-auto object-contain animate-float drop-shadow-2xl"
+                />
+              </div>
             </div>
 
             {/* Badge */}
