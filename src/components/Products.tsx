@@ -10,8 +10,8 @@ const products = [
     features: [
       "Atendimento 24/7 automatizado",
       "IA conversacional avançada",
-      "Integração com WhatsApp, Instagram e Facebook",
-      "Sistema de vendas integrado",
+      "Integração com WhatsApp",
+      "Agente de vendas integrado",
       "Suporte técnico automatizado",
       "Analytics e relatórios detalhados",
       "Personalização completa do bot",
