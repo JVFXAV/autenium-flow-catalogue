@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Target, TrendingUp } from "lucide-react";
+import auteniumLogo from "@/assets/autenium-logo.png";
 
 const Hero = () => {
   return (
@@ -13,6 +14,15 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-8 animate-fade-in">
+            {/* Logo */}
+            <div className="flex justify-center mb-8 animate-scale-in">
+              <img 
+                src={auteniumLogo} 
+                alt="Autenium Automations Logo" 
+                className="h-32 md:h-40 w-auto object-contain animate-float"
+              />
+            </div>
+
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary font-medium text-sm animate-scale-in">
               <Zap className="w-4 h-4" />
