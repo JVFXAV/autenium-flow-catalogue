@@ -6,7 +6,7 @@ const products = [
     icon: MessageSquare,
     name: "Chatbot MultiAgente Vendas+Suporte",
     description: "Sistema inteligente de atendimento automatizado que combina vendas e suporte em uma única solução integrada.",
-    price: "300",
+    price: "299,90",
     features: [
       "Atendimento 24/7 automatizado",
       "IA conversacional avançada",
@@ -23,7 +23,7 @@ const products = [
     icon: Share2,
     name: "Agente Gerenciador de Redes Sociais",
     description: "Rede social completamente autônoma com IA que cria, agenda e publica conteúdo relevante automaticamente.",
-    price: "300",
+    price: "299,90",
     features: [
       "Criação automática de conteúdo",
       "Agendamento inteligente de posts",
@@ -40,7 +40,7 @@ const products = [
     icon: Wrench,
     name: "Projetos Customizados",
     description: "Solução sob medida desenvolvida especificamente para as necessidades únicas do seu negócio.",
-    price: "700",
+    price: "699,90",
     features: [
       "Análise completa do seu negócio",
       "Desenvolvimento personalizado",
